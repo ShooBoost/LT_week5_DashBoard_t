@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>網頁元素</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="d-flex">
+    <!-- navbar 開始 -->
+    <section class="layoutNav vh-100 position-fixed p-32 bg-light d-flex flex-column">
+      <!-- brand logo 開始 -->
+      <h1 class="mb-32">
+        <a href="#"><img src="assets/images/logo-ANSWER.svg" alt=""></a>
+      </h1>
+      <!-- brand logo 結束 -->
+      <!-- nav item 開始 -->
+      <ul class="p-0">
+        <li class="mb-24">
+          <a href="element.html" class="d-flex">
+            <span class="material-icons mr-16">insert_chart</span>
+            <p class="font-weight-bold">Dashboard</p>
+          </a>
+        </li>
+        <li class="mb-24">
+          <a href="" class="d-flex">
+            <span class="material-icons mr-16">question_answer</span>
+            <p class="font-weight-bold">Question</p>
+          </a>
+        </li>
+        <li class="mb-24">
+          <a href="index.html" id="navIndexPageId" class="d-flex">
+            <span class="material-icons mr-16">assignment</span>
+            <p class="font-weight-bold">Assignment</p>
+          </a>
+        </li>
+        <li class="mb-24">
+          <a href="" class="d-flex">
+            <span class="material-icons mr-16">video_library</span>
+            <p class="font-weight-bold">Course</p>
+          </a>
+        </li>
+        <li class="mb-24">
+          <a href="admin.html" id="navAdminPageId" class="d-flex">
+            <span class="material-icons mr-16">people</span>
+            <p class="font-weight-bold">Admin</p>
+          </a>
+        </li>
+        <li class="mb-24">
+          <a href="" class="d-flex">
+            <span class="material-icons mr-16">settings</span>
+            <p class="font-weight-bold">Settings</p>
+          </a>
+        </li>
+      </ul>
+      <!-- nav item 結束 -->
+      <!-- now user info 開始 -->
+      <div class="d-flex mt-auto">
+        <div class="rounded-img-body mr-16">
+          <img src="assets/images/finn.jpg" alt="">
+        </div>
+        <div class="align-bottom">
+          <p class="mb-4 font-weight-bold">Andy Chen</p>
+          <p class="font-size-14">andy0401@mail.com</p>
+        </div>
+      </div>
+      <!-- now user info 結束 -->
+    </section>
+    <!-- navbar 結束 -->
+    <div class="layoutMain w-100">
+      <div class="container">
+  <span class="material-icons">insert_chart</span>
+  <span class="material-icons text-primary">question_answer</span>
+  <span class="material-icons">assignment</span>
+  <span class="material-icons">video_library</span>
+  <span class="material-icons">people</span>
+  <span class="material-icons">settings</span>
+
+  <span class="material-icons">add</span>
+  <span class="material-icons">expand_more</span>
+  <span class="material-icons">expand_less</span>
+  <span class="material-icons">search</span>
+  <span class="material-icons">notifications_active</span>
+
+  <span class="material-icons">more_vert</span>  
+  <span class="material-icons">attach_file</span>
+  <span class="material-icons">star_border</span>
+  <span class="material-icons">visibility</span>
+  <span class="material-icons">create</span>
+  <span class="material-icons">arrow_downward</span>
+
+  <span class="material-icons">navigate_before</span>
+  <span class="material-icons">navigate_next</span>
+
+  <span class="material-icons">arrow_drop_down</span>
+  <span class="material-icons">format_bold</span>
+  <span class="material-icons">format_italic</span>
+  <span class="material-icons">format_list_bulleted</span>
+  <span class="material-icons">format_list_numbered</span>
+  <span class="material-icons">insert_photo</span>
+  <span class="material-icons">link</span>
+  <span class="material-icons">code</span>
+
+  <span class="material-icons">check_circle</span>
+  <span class="material-icons">warning</span>
+  <br>
+  <!-- btn -->
+  <div class="btn btn-primary">primary</div>
+  <div class="btn btn-outline-primary">outline primary</div>
+  <div class="btn btn-secondary">second</div>
+  <div class="btn btn-secondary border-light">second border-light</div>
+  <div class="btn btn-outline-secondary">outline second</div>
+  <div class="btn btn-outline-danger">btn-outline-danger</div>
+  <div class="my-5"></div>
+  <!-- 修改 $table-hover-bg 設定 -->
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- Pagination -->
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#"><</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">></a></li>
+    </ul>
+  </nav>
+  <!-- link -->
+  <div class="btn btn-link">btn-link</div>
+  <div class="btn btn-link text-primary">btn-link text-primary</div>
+  
+  <!-- modal -->
+  <!-- Scrollable modal -->
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <h5>Account</h5>
+            <div class="form-group">
+              <label class="font-size-14 mb-1" for="exampleInputEmail1">Email address font-size-14</label>
+              <input type="email" class="form-control bg-light border-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Example multiple select</label>
+              <select class="form-control px-3" id="exampleFormControlSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer py-2">
+          <button type="button" class="btn btn-outline-secondary text-primary" data-dismiss="modal">outline-secondary text-primary</button>
+          <button type="button" class="btn btn-primary">primary</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- typography -->
+  <small class="">We'll never share your email with anyone else.</small>
+  <p class="small">p small</p>
+  <p class="font-size-24">font-size-24</p>
+  <p class="font-size-20">font-size-20</p>
+  <p class="font-size-16">font-size-16</p>
+  <p class="font-size-14">font-size-14</p>
+  <p class="font-size-12">font-size-12</p>
+
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <!-- list group -->
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small>3 days ago</small>
+      </div>
+      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small>Donec id elit non mi porta.</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action active">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Donec id elit non mi porta.</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <small class="text-muted">Donec id elit non mi porta.</small>
+    </a>
+  </div>
+  <br>
+  <!-- media -->
+  <ul class="list-unstyled">
+    <li class="media">
+      <img src="..." class="mr-3" alt="...">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media my-4">
+      <img src="..." class="mr-3" alt="...">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li class="media">
+      <img src="..." class="mr-3" alt="...">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+  </ul>
+  <!-- card -->
+  <div class="card">
+    <h5 class="card-header">Featured</h5>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <br>
+  <!-- card 裡面包 media -->
+  <div class="card" style="width: 500px; height: 500px">
+    <div class="card position-absolute w-100 fixed-bottom border-0 d-none">
+      <h5 class="card-header border-top">Featured</h5>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <h5 class="card-header">Featured</h5>
+    <div class="card-body overflow-auto pr-5">
+      <ul class="list-unstyled">
+        <li class="media">
+          <img src="..." class="mr-3" alt="...">
+          <div class="media-body border-bottom">
+            <h6 class="mt-0 mb-1">Emily Wang</h6>
+            <p class="font-size-14">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+          </div>
+        </li>
+        <li class="media my-4">
+          <img src="..." class="mr-3" alt="...">
+          <div class="media-body">
+            <h6 class="mt-0 mb-1">Andy Chen (You)</h6>
+            <p class="font-size-14 pre-line">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.
+              
+              You can:
+
+               　• adjust the <span class="bg-light text-primary rounded-sm pre-wrap"> vertical-align </span> of the image to position it elsewhere (e.g. the middle ) or
+               　• change the display so it isn’t inline.</p>
+          </div>
+        </li>
+        <li class="media">
+          <img src="..." class="mr-3" alt="...">
+          <div class="media-body">
+            <h6 class="mt-0 mb-1">List-based media object</h6>
+            <p class="font-size-14">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+          </div>
+        </li>
+        <li class="media">
+          <img src="..." class="mr-3" alt="...">
+          <div class="media-body">
+            <h6 class="mt-0 mb-1">List-based media object</h6>
+            <p class="font-size-14">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+          </div>
+        </li>
+        <li class="media">
+          <img src="..." class="mr-3" alt="...">
+          <div class="media-body">
+            <h6 class="mt-0 mb-1">List-based media object</h6>
+            <p class="font-size-14 mb-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="assets/js/all.js"></script>
+</body>
+
+</html>

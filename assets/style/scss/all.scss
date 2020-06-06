@@ -1,0 +1,21 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "variables";
+@import "./node_modules/bootstrap/scss/mixins";
+// Include all of Bootstrap
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+
+// homemade scss
+// page
+@import "assignment";
+@import "layout";
+// base
+@import "base";
+// utilities
+@import "textType";
+@import "otherUtilities";
+// modules
+@import "modules";
+
+
+

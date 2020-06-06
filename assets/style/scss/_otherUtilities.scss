@@ -1,0 +1,24 @@
+/* 
+連續的空白字元都會被保留。
+換行會在換行字元、有<br>元素以及被文字空間限制時發生。
+*/
+.pre-wrap {
+    white-space: pre-wrap;
+}
+/*
+連續的空白字元會被合併(collapse)。
+換行在換行字元、 <br>以及被文字空間限制時發生。
+*/
+.pre-line {
+    white-space: pre-line;
+}
+
+// 旋轉 180 度
+.rotate-180{
+    transform: rotate(180deg);
+}
+
+// box-shadow 隱形
+.box-shadow-0 {
+    box-shadow: none !important;
+}
